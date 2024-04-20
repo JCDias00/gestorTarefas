@@ -28,11 +28,12 @@ export class TaskService {
   }
 
   addTask(task: Task): void{
+    task.id = this.tasks.length + 1;
     this.tasks.push(task);
     this.saveToLocalStorage();
   }
 
-  updateTask(){
+  updateTasks(){
 
     this.saveToLocalStorage();
 
