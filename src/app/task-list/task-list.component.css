@@ -6,6 +6,8 @@ ul{
     width: 100%;
 }
 
+
+
 ul li{
     display: flex;
     align-items: center;
@@ -18,19 +20,11 @@ ul li{
     position: relative;
 }
 
-form{
-    display: flex;
-    width: 100px;
-    border: 1px  solid var(--color-black-3);
-    border-radius: 15px;
-    height: 50px;
-}
-
 ul li:hover{
     border: 2px solid var(--color-blue-1);
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     font-size: var(--font-size-4);
     width: 85%;
@@ -41,7 +35,7 @@ ul li a.task-completed{
     text-decoration: line-through;
 }
 
-ul li .button-box{
+ul li .button-box {
     position: absolute;
     right: 10px;
 }
@@ -54,6 +48,16 @@ ul li .button-box button{
 
 }
 
+
+
+form{
+    display: flex;
+    width: 100%;
+    border: 1px  solid var(--color-black-3);
+    border-radius: 15px;
+    height: 50px;
+}
+
 form input{
 
     border: 0;
@@ -63,6 +67,8 @@ form input{
     border-radius: 15px 0 0 15px;
     font-size: var(--font-size-4);
 }
+
+
 form input:focus{
     outline: none;
 }
@@ -75,3 +81,5 @@ form button{
     font-size: var(--font-size-2);
     cursor: pointer;
 }
+
+
