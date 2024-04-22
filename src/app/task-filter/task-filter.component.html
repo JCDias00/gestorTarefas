@@ -1,1 +1,1 @@
-<input type="text" [(ngModel)]="filter" [(ngModelChanges)]=""" placeholder="Pesquisar">
+<input type="text" [(ngModel)]="filter" (ngModelChange)="filterTasks()" placeholder="Pesquisar">
