@@ -43,7 +43,7 @@ export class TaskListComponent {
         this.taskService.updateTasks();
     }
 
-    filterTasks(filter: string){
+    filterTask(filter: string){
 
         if(filter !== ''){
             this.tasks = this.tasks.filter(c=> c.name.includes(filter))
